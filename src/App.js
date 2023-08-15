@@ -3,6 +3,7 @@ import AlarmOption from './components/AlarmOption/AlarmOption';
 import AnalogClock from './components/AnalogClock/AnalogClock';
 import ContextAlarm from './components/context/ContextAlarm';
 import DigitalClock from './components/DigitalClock/DigitalClock';
+import Stopwatcher from './components/Stopwatcher/Stopwatcher';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <DigitalClock />
             <AlarmOption />
           </ContextAlarm>
+          <Stopwatcher/>
         </div>
       </div>
     </section>
