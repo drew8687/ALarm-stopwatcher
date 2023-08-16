@@ -24,11 +24,13 @@ function AnalogClock() {
 
   return (
     <div className="clock__circle">
+    <div>
       <FcAlarmClock className={`alarm-icon ${hasAlarm && 'active'}`} />
       <span className="clock__twelve"></span>
       <span className="clock__three"></span>
       <span className="clock__six"></span>
       <span className="clock__nine"></span>
+      </div>
 
       <div className="clock__rounder"></div>
       <div className="clock__hour" style={{ transform: hour }}></div>
