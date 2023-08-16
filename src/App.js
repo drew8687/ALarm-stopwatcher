@@ -15,8 +15,9 @@ function App() {
             <AnalogClock />
             <DigitalClock />
             <AlarmOption />
+            <Stopwatcher/>
+
           </ContextAlarm>
-          <Stopwatcher/>
         </div>
       </div>
     </section>
